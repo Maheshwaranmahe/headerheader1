@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    height: 40%;
+    width: 2%;
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.nav li{
+    display: inline-flex;
+}
+.nav a{
+    margin-left: 20px;
+}
+.name{
+    font-size: x-large;
+    color: white;
+}
+button{
+    margin-top: 10px;
+    margin-left: 75%;
+    padding: 15px;
+}
+.button1{
+    color: white;
+    margin-left: 3%;
+    top: 1px;
+    background-color: brown;
+    padding: 15px;
+    position: absolute;
+}
